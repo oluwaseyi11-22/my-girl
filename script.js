@@ -410,7 +410,7 @@ if (menuToggle && sectionMenu) {
 // ================= WORD HUNT GAME ================= 
 class WordHuntGame {
   constructor() {
-    this.words = ['NIFEMI', 'ANGRYBIRD', 'RODIAT', 'TIKTOK', 'BABY'];
+    this.words = ['NIFEMI', 'ANGRYBIRD', 'BEANS', 'TIKTOK', 'BABY'];
     this.gridSize = 12;
     this.grid = [];
     this.wordPositions = [];
