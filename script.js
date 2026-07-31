@@ -673,7 +673,7 @@ class WordHuntGame {
   updateGameStatus() {
     const status = document.getElementById('gameStatus');
     if (this.foundWords.size === this.words.length) {
-      status.textContent = '🎉 You found all the words! clap for yourself! ❤️';
+      status.textContent = '🎉 You found all the words!❤️';
       status.style.color = '#ff1493';
       status.style.fontSize = '1.2rem';
     } else {
